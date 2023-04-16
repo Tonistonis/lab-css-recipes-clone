@@ -10,15 +10,82 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  text-align: center;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+
+.header1 {
+  position: relative;
+  text-align: center;
+  color: white;
+ 
+
+}
+
+.title1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  
+}
+
+.img1 {
+  width:800px;
+  
+}
+
+.article1 {
+  position: relative;
+  margin: 10px 10px 10px 450px;
+  width: 600px;
+  
+  text-align: center;
+  
+  
+}
+
+.img2 {
+  width: 10px;
+}
+
+.ingredientsArea {
+  text-align: start;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 100px;
+  
+}
+
+.ulremovedot{
+  list-style-type: none;
+}
+
+
+div {
+  text-align: center;
+}
+
+.directions1 {
+ 
+  margin: auto;
+  padding: auto;
+  width: 40px;
+}
+
+.organizeList {
+  list-style-type: none;
+
+}
+
